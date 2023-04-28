@@ -5,3 +5,5 @@ document.querySelector('.contenido').innerHTML = `${nombre +" "+ apellido} está
 console.log(nombre + " " + apellido);
 
 alert('Bienvenido' + " "+nombre+ " " + apellido);
+
+
