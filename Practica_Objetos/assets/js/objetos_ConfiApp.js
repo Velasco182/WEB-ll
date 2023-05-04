@@ -17,7 +17,7 @@ const menor = {
     n_identificacion: prompt("Número de documento:"),
     nombres: prompt("Ingresa tu nombre:"),
     apellidos: prompt("Ingresa tu apellido:"),
-    coelgio: prompt("¿Dónde estudia el menor?:"),
+    colegio: prompt("¿Dónde estudia el menor?:"),
     edad: prompt("Ingresa tu edad:"),
     celular: prompt("Ingresa tu celular:")
 }
@@ -38,6 +38,8 @@ const ruta = {
 }
 
 ruta.T_estimado = {estimado};
-const datos = Object.assign(tutor, menor, ruta);
+const datosTM = Object.assign(tutor, menor);
+const datosR = Object.assign(datosTM,ruta)
 
-console.log(datos);
+console.log(datosR);
+document.write(`${datosR}`);
