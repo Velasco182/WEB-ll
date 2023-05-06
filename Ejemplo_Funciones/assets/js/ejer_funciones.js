@@ -6,7 +6,7 @@ ciudad = prompt("Ingresa tu ciudad: ");
 pwd = prompt("Ingresa una contraseña");
 alert("¡Registro Exitoso!");
 
-inicio();
+inicio(nom, pwd);
 
 /*function registro() {
   
