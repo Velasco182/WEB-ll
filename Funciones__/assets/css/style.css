@@ -1,0 +1,41 @@
+*{
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color:blue;
+    text-align: center;
+    
+}
+
+img{
+    width: 200px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    color: beige;
+    font-size: x-large;
+} 
+
+.contenido{
+    width: 300px; 
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.637); 
+       
+}
+
+
+
+.rp{
+    background-color: rgba(0, 0, 0, 0.308); 
+}
+/* 
+.contenido:hover{
+    
+} */
