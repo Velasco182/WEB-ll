@@ -80,4 +80,3 @@ function pagar(){
     console.log(`Estás pagando con: ${metodoPago}}`);
     document.write(`Estás pagando con: ${metodoPago}}`);
 }
-
