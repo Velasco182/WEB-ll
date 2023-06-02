@@ -66,7 +66,7 @@ do{
 ////////////////ARROW FUNCTION SIEMPRE
 ////////RECORRE ARREGLOS SIN NECESIDAD DE VARIABLE APARTE 
 libros.forEach( libros => console.log(libros));
-libros.map( (libros, ind) => {console.log(`${ind}:, ${libros}`); });
+libros.map( (libros, ind) => {console.log(`${ind}:, ${libros}`); }); 
 
 ///////////////HACE UN ARREGLO APARTE 
 libros.map( (libros) => {console.log(libros.nombre, libros.pasta); });
