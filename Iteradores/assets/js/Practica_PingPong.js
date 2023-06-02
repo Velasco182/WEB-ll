@@ -1,10 +1,15 @@
 alert("Bienvendido a Ping - Pong");
-let x = prompt("Ingresa un Límite");
+let x; 
+
+do{
+  x = prompt("Ingresa un número");
+  alert("Ingresa un número, solo enteros son válido");
+while(x%x!=0);
 
 
-isFinite(x) ? 'Float': x = prompt("Ingresa un Límite valido");
+//isFinite(x) ? 'Float': x = prompt("Ingresa un Límite valido");
 
-parseInt(x);
+//parseInt(x);
 
 for(let j=1;j<=x;j++){
 console.log(`${[j]}`);
