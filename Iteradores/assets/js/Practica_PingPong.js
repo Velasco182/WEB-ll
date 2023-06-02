@@ -6,12 +6,11 @@ isFinite(x) ? 'Float': x = prompt("Ingresa un Límite valido");
 
 parseInt(x);
 
-for(let j=0;j<=x;j++){
+for(let j=1;j<=x;j++){
 console.log(`${[j]}`);
 document.write(`${[j]}<br>`);
-    if(j==0){
 
-    }else if(j%5 === 0 && j%3 === 0){
+    if(j%5 === 0 && j%3 === 0){
         console.log(`${[j]} Ping Pong`);
         document.write(`${[j]} Ping Pong<br>`);
     }else if(j%5 === 0){
