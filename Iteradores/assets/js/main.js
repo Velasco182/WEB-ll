@@ -45,5 +45,35 @@ for(let i = 0; i<=10;i++){
     }
 }
 
+//////////////////02/06/2023 CICLO WHILE////////////////////
+let i=0;
 
+while(i<10){
+    console.log(`While el número ${i}`);
+    i++;
+}
 
+let x=0;
+
+do{
+
+    console.log(`Do while el número ${x}`);
+    i++;
+
+}while(x<=5);
+
+/////////////////FOR EACH ////////////////////////
+////////////////ARROW FUNCTION SIEMPRE
+////////RECORRE ARREGLOS SIN NECESIDAD DE VARIABLE APARTE 
+libros.forEach( libros => console.log(libros));
+libros.map( (libros, ind) => {console.log(`${ind}:, ${libros}`); });
+
+///////////////HACE UN ARREGLO APARTE 
+libros.map( (libros) => {console.log(libros.nombre, libros.pasta); });
+
+/////////////////FOR IN - FOR OF
+////////////////IN SIRVE PARA OBJETOS
+////////////////OF SIRVE PARA OBJETOS Y ARREGLOS
+for(let libro of libros){
+    console.log(libro);
+}
