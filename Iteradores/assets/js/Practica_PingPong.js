@@ -2,8 +2,8 @@ alert("Bienvendido a Ping - Pong");
 let x; 
 
 do{
-  alert("Ingresa un número, solo enteros son válido");
-  x = prompt("Ingresa un número");
+  alert("Ingresa un número, solo es válido enteros");
+  x = prompt("Ingresa el número");
   
 while(x%x!=0);
 
