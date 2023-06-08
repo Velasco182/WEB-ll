@@ -10,6 +10,8 @@ do{
 }while(x/x!==0 && x%2!==0);
 // Valida el cociente para que no sea decimal o flotante // Valida el residuo para que solo ingresen pares
 
+
+//////////////////////////HECHO CON CICLOS FOR//////////////////////////
 //isFinite(x) ? 'Float': x = prompt("Ingresa un Límite valido");
 
 //parseInt(x);
@@ -29,7 +31,8 @@ do{
 //         document.write(`${[j]} Ping<br>`);
 //     }
 // }
-
+/////////////////////////////////////////////////////////////////////////
+////////////////////////////CICLO DO WHILE//////////////////////////////
 let j=1;
 do{
     console.log(`${j}`);
