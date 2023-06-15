@@ -1,3 +1,11 @@
+/////////////DOCUMENT OBJECT MODEL//////////////
+////////////De tipo gerarjico, o de tipo arbol//////////
+/////////Se puede recorrer de padre a hijo o de hijo a padre /////////
+/////document///////////
+///// TRAVERSING : generar ruta especifica /////  
+
+
+
 const header = document.getElementsByClassName('header');
 console.log(header); ////HTMLCollection [header.header.contenedor]
 
@@ -68,6 +76,7 @@ document.querySelector('.contenido section h2').textContent = prompt("¿Que quie
 
 const imagenes = document.querySelector('.card img');
 imagenes.src = 'img/hacer1.jpg'; /// cambiar imagen
+
 
 //// Manipular estilo de texto.
 const headColor = document.querySelector('h1');
