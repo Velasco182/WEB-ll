@@ -1,0 +1,41 @@
+const rol1 ="weboncito1"
+const psw1 ="123"
+
+const rol2
+const psw2
+
+const rol3
+const psw3
+
+
+
+
+
+
+Sw
+
+IF     rol1 === weboncito1 && psw1=== 123
+	rol1(rol1, psw1)	
+
+
+FOR
+
+
+WHILe
+
+
+
+llamado1(rol1, psw1){
+
+   llamado2(nombre, password)
+    llamado (){
+	alert (esta es una funcion interna)	}
+}
+
+
+
+
+Bienvenido Edwin - Tu eres un tutor
+
+
+llamado1 ()
